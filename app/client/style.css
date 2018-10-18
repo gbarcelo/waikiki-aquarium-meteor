@@ -1,0 +1,54 @@
+.ui.centered.grid.menugrid {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.ui.borderless.mainmenu.menu {
+  box-shadow: none;
+  border: none;
+  background: none;
+  height: 40px;
+  font-size: 15px;
+}
+
+.ui.image.logo {
+  margin: 0px 60px;
+  height: 150px;
+}
+
+.ui.item.simple.dropdown .text{
+  color: white;
+}
+
+.ui.item.simple.dropdown:hover {
+  opacity: 0.9;
+  background: #000033;
+  border-radius: 4px;
+  color: white;
+}
+
+.bottomback {
+  background-color: #1D1D4D;
+  padding: 20px 0px;
+}
+
+.ui.grid.bottomgrid {
+  background-color: #000033;
+  min-height: 180px;
+  color: white;
+}
+
+.ui.large.horizontal.segments {
+  background: none;
+}
+
+.ui.image.bottomicon {
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}

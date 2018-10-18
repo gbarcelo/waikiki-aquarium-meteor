@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  Container,
-  Menu,
-  Icon,
-  Dropdown,
+  Grid,
+  Segment,
+  Image,
+  Header,
 } from 'semantic-ui-react';
 
-class Bottom extends React.Component {
+export default class Bottom extends React.Component {
   render() {
     return (
         <div className='bottomback'>

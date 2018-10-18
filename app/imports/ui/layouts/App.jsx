@@ -4,13 +4,9 @@ import { Meteor } from 'meteor/meteor';
 import 'semantic-ui-css/semantic.css';
 import { Roles } from 'meteor/alanning:roles';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
-import Landing from '../pages/Landing';
-import ListStuff from '../pages/ListStuff';
-import ListStuffAdmin from '../pages/ListStuffAdmin';
-import AddStuff from '../pages/AddStuff';
-import EditStuff from '../pages/EditStuff';
+import MainImage from '../components/MainImage';
+import Bottom from '../components/Bottom';
+import WaikikiAquarium from '../pages/WaikikiAquarium';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
@@ -22,7 +18,7 @@ class App extends React.Component {
     return (
         <Router>
           <div>
-            <NavBar/>
+            <MainImage/>
             <Switch>
               <Route exact path="/" component={WaikikiAquarium}/>
               <Route path="/signin" component={Signin}/>
@@ -30,7 +26,7 @@ class App extends React.Component {
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
-            <Footer/>
+            <Bottom/>
           </div>
         </Router>
     );

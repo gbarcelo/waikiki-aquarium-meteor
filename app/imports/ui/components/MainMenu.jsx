@@ -1,8 +1,8 @@
 import React from 'react';
 import {
-  Container,
+  Grid,
   Menu,
-  Icon,
+  Image,
   Dropdown,
 } from 'semantic-ui-react';
 
